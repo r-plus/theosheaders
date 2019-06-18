@@ -61,8 +61,6 @@ typedef enum PSCellType {
 +(PSSpecifier*)emptyGroupSpecifier;
 +(UITextAutocapitalizationType)autoCapsTypeForString:(PSSpecifier*)string;
 +(UITextAutocorrectionType)keyboardTypeForString:(PSSpecifier*)string;
-+(PSSpecifier *)buttonSpecifierWithTitle:(id)arg1 target:(id)arg2 action:(SEL)arg3 confirmationInfo:(id)arg4;
-+(PSSpecifier *)switchSpecifierWithTitle:(id)arg1 target:(id)arg2 setter:(SEL)arg3 getter:(SEL)arg4 key:(id)arg5;
 // inherited: -(id)init;
 -(id)propertyForKey:(NSString*)key;
 -(void)setProperty:(id)property forKey:(NSString*)key;
