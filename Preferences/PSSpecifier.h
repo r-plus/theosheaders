@@ -49,6 +49,7 @@ typedef enum PSCellType {
 	id _userInfo;
 	NSMutableDictionary* _properties;
 }
+@property (nonatomic) SEL buttonAction;
 @property(retain) NSMutableDictionary* properties;
 @property(retain) NSString* name;
 @property(retain) id userInfo;
