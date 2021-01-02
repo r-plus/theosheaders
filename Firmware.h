@@ -133,4 +133,33 @@
 #define kCFCoreFoundationVersionNumber_iOS_12_0 1556.00
 #endif
 
+#ifndef kCFCoreFoundationVersionNumber_iOS_12_1
+#define kCFCoreFoundationVersionNumber_iOS_12_1 1560.10
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_12_2
+#define kCFCoreFoundationVersionNumber_iOS_12_2 1570.15
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_13_0
+#define kCFCoreFoundationVersionNumber_iOS_13_0 1665.15
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_13_4
+#define kCFCoreFoundationVersionNumber_iOS_13_4 1675.129
+#endif
+
+// 13.5-13.7 is same.
+#ifndef kCFCoreFoundationVersionNumber_iOS_13_5
+#define kCFCoreFoundationVersionNumber_iOS_13_5 1676.104
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_14_0
+#define kCFCoreFoundationVersionNumber_iOS_14_0 1740.00
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_14_1
+#define kCFCoreFoundationVersionNumber_iOS_14_1 1751.108
+#endif
+
 #endif // COMMON_FIRMWARE_H_
